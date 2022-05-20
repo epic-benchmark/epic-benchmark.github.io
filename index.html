@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>ePiC Homepage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/hover.css" rel="stylesheet">
+    
+<meta name="google-site-verification" content="h3zCtOJy9KzG1XWf5-3ppU1liaJ8NkpGvK_BbOOq3-4" />
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org/",
+  "@type":"Dataset",
+  "name":"ePiC: employing Proverbs in Context",
+  "description":"dataset description",
+  "url":"https://epic-benchmark.github.io/",
+  "keywords":[
+     "Natural Language Processing",
+     "Figurative Language",
+     "Abstract Language Understanding"
+  ],
+  "creator":{
+     "@type":"Organization",
+     "url": "",
+     "name":"University of North Carolina at Chapel Hill",
+     "contactPoint":{
+        "@type":"ContactPoint",
+        "contactType": "customer service",
+        "url":"",
+        "email":""
+     }
+  },
+  "distribution":[
+     
+  ]
+}
+</script>
+
+  </head>
+
+  <body>
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="index.html" style="color:black">ePiC</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Page Header -->
+<!--<header class="masthead" style="background-image: url('img/004D92.jpeg')">-->
+<header class="masthead" style="height:140px; background-color:lightyellow">
+  <div class="container" style="height:100px">
+    <div class="row ">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="site-heading">
+          <div class="logo">
+            <!-- <img src="img/intro-1.png" alt="logo" style="height:250px;top:-100px;"/> -->
+            <!-- <embed src="img/intro.pdf" alt="logo" style="height:250px;top:-100px;"/> -->
+          </div>
+<!--           <h1>HoVer</h1>
+ -->          <span class="subheading logo" style="height:20px"><b>Employing Proverbs in Context as a Benchmark for Abstract Language Understanding</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+    
+<!-- Main Content -->
+<div class="container" id="main">
+  <div class="row">
+    <div class="col-lg-5">
+      <div class="list-group">
+        <div class="list-group-item"><h4>What is ePiC?</h4>
+        <p>ePiC is a crowdsourced dataset of narratives for employing proverbs in context as a benchmark for abstract language understanding. The dataset provides fine-grained annotation of aligned spans between proverbs and narratives, and contains minimal lexical overlaps between narratives and proverbs, ensuring that models need to go beyond surface-level reasoning to succeed. 
+        The dataset is accompanied by three tasks
+          : (1) proverb recommendation and alignment prediction, (2) narrative generation for a given proverb and topic, and (3) identifying narratives with similar motifs. 
+          <br>
+          <!-- The dataset has been created by a team of NLP researchers at UNC Chapel Hill -->
+        </a>.
+        
+        </p>
+        <p>For more details about ePiC, please refer to our paper:</p>
+        <p class="text-center">
+          <a href="https://arxiv.org/pdf/2109.06838.pdf"><button type="button" class="btn btn-info">Ghosh and Srivastava, 2022</button></a>
+        </p>
+        </div>
+        <div class="list-group-item"><h4>Dataset</h4>
+        <p>
+          The dataset can be downloaded using the link below.</p>
+        <p class="text-center">
+          <a href="https://github.com/epic-benchmark/epic-benchmark.github.io/blob/main/data/full_dataset.json"><button type="button" class="btn btn-success">Download Dataset
+          </button></a>
+        </p>
+        
+        <p>
+        </div>
+
+        <div class="list-group-item"><h4>Baselines</h4>
+          <p>
+            The code for all models in the paper are hosted in the GitHub repository linked below</p>
+          <p class="text-center">
+            <a href="https://github.com/sgdgp/epic"><button type="button" class="btn btn-success">Baselines
+            </button></a>
+          </p>
+          
+          <p>
+          </div>
+        
+        <div class="list-group-item"><h4>Citation</h4>
+<p>If you use ePiC in your research, please cite our paper with the following BibTeX entry</p>
+        <pre>
+@inproceedings{ghosh-srivastava-2022-epic,
+  title = "e{P}i{C}: Employing Proverbs in Context as a Benchmark for Abstract Language Understanding",
+  author = "Ghosh, Sayan  and Srivastava, Shashank",
+  booktitle = "Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+  year = "2022"
+}</pre>
+    </div>
+  </div>
+</div>
+
+
+<div class="col-lg-7">
+  <div class="card card-outline-secondary">
+    <div class=list-group-item>
+      <h4>Dataset Explorer</h4>
+    </div>
+    <br>
+    Choose the proverb:
+    <br>
+    <select class="div-toggle" data-target=".my-info-1" name="choose_quote_dropdown" id="choose_quote_dropdown" onchange='quoteSelectedOnClick(this)'>
+    </select>
+
+    <div class="card-body overflow_quote">
+      <div class="my-info-1" id="quotes_data">
+    
+      </div>
+
+    
+    </div>
+
+
+      
+  </div>
+</div>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+    <hr>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <p class="copyright text-muted">Copyright &copy; ePiC Team, 2022.</p>
+            <p class="copyright text-muted">Theme adapted from Start Bootstrap's <a href="https://startbootstrap.com/template-overviews/clean-blog/">Clean Blog</a> template, <a href="https://explagraphs.github.io//">ExplaGraphs</a> home page, <a href="https://hotpotqa.github.io/">HotpotQA</a> home page, and <a href="https://hover-nlp.github.io/">HoVer</a> home page.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+    
+
+  </body>
+
+</html>
+
+<script>
+
+$(document).ready(function(){
+	// $('.div-toggle').trigger('change');
+  // var dataset_path = "https://raw.githubusercontent.com/epic-benchmark/epic-benchmark.github.io/main/data/full_dataset.json";
+  var proverbs_path = "https://raw.githubusercontent.com/epic-benchmark/epic-benchmark.github.io/main/data/all_proverbs.json";
+  // loadAllDataJSON(dataset_path, myData,'jsonp');
+  loadProverbsJson(proverbs_path, proceedToLoadAllData, 'jsonp')
+});
+
+</script>
+
+
+<script>
+  
+  function quoteSelectedOnClick(menu){
+    var quote_selected = document.getElementById('choose_quote_dropdown').value;
+    for (var i = 1; i <=250; i++){
+      // for (var j = 1; j<=10; j++){
+      var temp_div_id = "Q" + i.toString();
+      // var temp_div_id = "Q" + i.toString() + "N" + j.toString();
+      // console.log(temp_div_id);
+      // console.log(temp_quote_id);
+      // console.log(quote_selected);
+      // console.log(temp_quote_id != quote_selected);
+      // document.getElementById(temp_div_id).style.display = 'none';
+
+      if (temp_div_id != quote_selected){
+        document.getElementById(temp_div_id).style.display = 'none';
+      }
+      else{
+        console.log("Showing");
+        console.log(temp_div_id);
+        document.getElementById(temp_div_id).style.display = 'block';
+      }
+      // }
+    }
+  }
+
+  function loadProverbsJson(path, success, error) {
+    var xhr = new XMLHttpRequest();
+    xhr.onreadystatechange = function () {
+      if (xhr.readyState === 4) {
+        if (xhr.status === 200) {
+          success(JSON.parse(xhr.responseText));
+        }
+        else {
+          error(xhr);
+        }
+      }
+    };
+    xhr.open('GET', path, true);
+    xhr.send();
+  }
+
+  function proceedToLoadAllData(Data){
+    // populate drop down
+    
+    html_string = '';
+    for(var i=0; i<Data.length; i=i+1)
+    {
+      quote_id = Data[i]['quote_id'];
+      quote = Data[i]['quote'];
+      html_string += "<option value='" +  quote_id + "' data-show='." + quote_id +"' >" + quote + "</option>";
+      // console.log("<option value='" +  quote_id + "' data-show='." + quote_id +"' >" + quote + "</option>");
+    }
+
+    document.getElementById('choose_quote_dropdown').innerHTML = html_string;
+
+    var dataset_path = "https://raw.githubusercontent.com/epic-benchmark/epic-benchmark.github.io/main/data/full_dataset_restructured.json";
+    loadAllDataJSON(dataset_path, myData,'jsonp');
+  }
+
+  function loadAllDataJSON(path, success, error) {
+  var xhr = new XMLHttpRequest();
+  xhr.onreadystatechange = function () {
+    if (xhr.readyState === 4) {
+      if (xhr.status === 200) {
+        success(JSON.parse(xhr.responseText));
+      }
+      else {
+        error(xhr);
+      }
+    }
+  };
+  xhr.open('GET', path, true);
+  xhr.send();
+}
+
+function reset(e) {
+  var pk = e.split("_")[1]; 
+  var pairNum = e.split("_")[0].split("Pair")[1];
+
+  let orig_narrative = document.getElementById("div_hidden_narrative_"+ pk.toString()).innerHTML;
+  let orig_quote = document.getElementById("div_hidden_quote_"+ pk.toString()).innerHTML;
+  
+  document.getElementById("div_narrative_"+ pk.toString()).innerHTML = orig_narrative;
+  document.getElementById("div_quote_"+ pk.toString()).innerHTML = orig_quote;
+  
+
+}
+
+function search(e) {
+  reset(e);
+  // console.log(e);  
+  var pk = e.split("_")[1];
+  // console.log(pk);  
+  var pairNum = e.split("_")[0].split("Pair")[1];
+  // console.log(pairNum);  
+
+  // mark span in narrative
+  let text = document.getElementById("div_narrative_"+ pk.toString()).innerHTML;
+  let y = document.getElementById("div_span_narrative_" + pairNum.toString() + "_" + pk.toString()).innerHTML;
+  let re = new RegExp(y,"g"); // search for all instances
+  let newText = text.replace(re, `<mark style='background-color: #ffbfbd;'>${y}</mark>`);
+  document.getElementById("div_narrative_"+ pk.toString()).innerHTML = newText;
+  
+  // mark span in quote
+  text = document.getElementById("div_quote_"+ pk.toString()).innerHTML;
+  y = document.getElementById("div_span_quote_" + pairNum.toString() + "_" + pk.toString()).innerHTML;
+  re = new RegExp(y,"g"); // search for all instances
+  newText = text.replace(re, `<mark style='background-color: #ffbfbd;'>${y}</mark>`);
+  document.getElementById("div_quote_"+ pk.toString()).innerHTML = newText;
+  
+
+
+
+}
+
+function myData(Data)
+{
+
+  var quotes_div = document.getElementById("quotes_data");
+  quotes_div.innerHTML = "";
+
+  html_string = "";
+  for(var quote_idx=1; quote_idx<=250; quote_idx=quote_idx+1)
+  {
+    data_key = "Q" + quote_idx.toString();
+    current_selected_quote = document.getElementById('choose_quote_dropdown').value;
+    if (current_selected_quote == data_key){
+      display_val = "block";
+    }
+    else{
+      display_val = "none"
+    }
+    html_string += "<div id='" + data_key + "' class='" + data_key + "' style='display:"+ display_val + "'>";
+    for (var i=0; i < Data[data_key].length; i++){
+      quote_id = Data[data_key][i]["pk"].split("N")[0];
+      // console.log(quote_id)
+      // html_string += "<div id='" + quote_id + "' class='" + quote_id + "'>";
+      // html_string += "<div id='div_quote_meta_" + quote_id + "' class='" + quote_id + "' style='display:block' >";
+      // console.log("<div class='" + quote_id + " hide'>")
+
+      html_string += "<div id='" + Data[data_key][i]["pk"]  +"'>";
+      pre_style = "white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word;";
+      html_string += "<pre style='"+ pre_style +"'>";
+      html_string += "<b>Quote</b> <br>";
+      html_string += "<div id='div_quote_" + Data[data_key][i]["pk"].toString() + "'>";
+      html_string += Data[data_key][i]["fields"]["quote"];
+      html_string += "</div>";
+      html_string += "<div id='div_hidden_quote_" + Data[data_key][i]["pk"].toString() + "' style='display:none'>";
+      html_string += Data[data_key][i]["fields"]["quote"];
+      html_string += "</div>";
+      
+      html_string += "<br><br>";
+      html_string += "<b>Narrative</b> <br>";
+      html_string += "<div id='div_narrative_" + Data[data_key][i]["pk"].toString() + "'>";
+      html_string += Data[data_key][i]["fields"]["narrative"];
+      html_string += "</div>";
+      html_string += "<div id='div_hidden_narrative_" + Data[data_key][i]["pk"].toString() + "' style='display:none'>";
+      html_string += Data[data_key][i]["fields"]["narrative"];
+      html_string += "</div>";
+      
+      html_string += "<br><br>";
+      // collapsible box
+      html_string += "<b>Click the buttons below to see the aligned pair of spans </b>";
+      html_string += "<button type='button' id='btnReset_"+ Data[data_key][i]["pk"].toString() +"' class='btn-aligned' onClick='reset(id)'>Reset</button>";
+      html_string += "<br>";
+      // html_string += "<div id='div_quote_highlight_" + Data[i]["pk"].toString() + "'>";
+      // html_string += Data[i]["fields"]["quote"];
+      // html_string += "</div>";
+      // html_string += "<br>";
+      // add span annotation buttons
+      html_string += "<div class='btn-toolbar'>";
+      for (var j=1; j<=5; j++){
+        var span_quote = Data[data_key][i]["fields"]["span_quote_"+j.toString()];
+        var span_narrative = Data[data_key][i]["fields"]["span_narrative_"+j.toString()];
+        if (span_quote.length == 0){
+          break;
+        }
+        html_string += "<div id='div_span_quote_" + j.toString() + "_" + Data[data_key][i]["pk"].toString() + "' style='display:none'>";
+        html_string += span_quote;
+        html_string += "</div>";
+
+        html_string += "<div id='div_span_narrative_" + j.toString() + "_" + Data[data_key][i]["pk"].toString() + "' style='display:none'>";
+        html_string += span_narrative;
+        html_string += "</div>";
+
+        html_string += "<button type='button' id='btnPair"+ j.toString() +"_"+ Data[data_key][i]["pk"].toString() +"' class='btn-aligned' onClick='search(id)' >Pair "+ j.toString() +"</button>";
+      }
+      html_string += "</div>";    
+      html_string += "</pre>";
+      html_string += "</div>";
+      // html_string += "</div>";
+      html_string += "<br><br><br>"
+    }
+    
+    html_string += "</div>"
+  }
+  quotes_div.innerHTML = html_string
+}
+
+</script>
+
+
+<style>
+  .hide {
+  display: none;
+}
+
+.overflow_quote {
+    /* width: 30em; */
+    /* overflow-x: auto; */
+    /* white-space: nowrap; */
+
+    height: 48em;
+    overflow-y: auto;
+}
+
+.fixed{
+    width: 300px;
+}
+
+</style>
+
+<style>
+            
+  input[type="range"] {
+          width:400px;
+  }
+  table, th {
+      border: 1px solid black;
+      padding: 5px;
+      color: black;
+      font-family: verdana;
+      background-color:lightyellow;
+      font-size: smaller;
+  }
+  td {
+      border: 1px solid black;
+      padding: 5px;
+      color: black;
+      font-family: verdana;
+      font-size: smaller;
+  }
+  .panel {
+      display: inline-block;
+      background:white;
+  }
+  p {
+    display: block;
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .btn-aligned {
+    /* width: fit-content; */
+    min-width: 0px !important;
+    max-width: 50px !important;
+    padding:0px !important;
+    display: inline-block;
+    margin:0px !important;
+    background-color:lightblue;
+    color:black;
+    border-radius: 5px;
+    
+  }
+</style>
